@@ -1,0 +1,28 @@
+## Interface: 120100, 120007, 120005
+## Title: TibiSuite - |cFF00FF98SkillTracker|r
+## Title-frFR: TibiSuite - |cFF00FF98SkillTracker|r
+## Notes: Tracks profession progression per expansion (current / max + %), for all your characters. Module of the TibiSuite suite by Tibiscui.
+## Notes-frFR: Suit la progression des metiers par extension (actuel / max + %), pour tous vos personnages. Module de la suite TibiSuite par Tibiscui.
+## Author: Tibiscui - Kirin Tor
+## Version: 4.0
+
+## OptionalDeps: TibiSuite, LibStub, LibDataBroker-1.1
+
+## IconTexture: Interface\AddOns\SkillTracker\media\Logo
+## SavedVariables: SkillTrackerDB
+
+## AddonCompartmentFunc: SkillTracker_OnAddonCompartmentClick
+## AddonCompartmentFuncOnEnter: SkillTracker_OnAddonCompartmentEnter
+## AddonCompartmentFuncOnLeave: SkillTracker_OnAddonCompartmentLeave
+
+## Category: Tracking
+## Category-frFR: Tracking
+
+## X-Website: https://www.curseforge.com/wow/addons/tibisuite
+## X-Discord: https://discord.gg/tibiscui
+
+TibiMidnightUI.lua
+Locales.lua
+Constants.lua
+Core.lua
+UI.lua
